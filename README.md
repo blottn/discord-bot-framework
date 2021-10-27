@@ -8,3 +8,6 @@ get go;
 - Website admin page
 - Plug and play Bots
 - Plug and play Object Persistence
+
+## Ok how do I run it though?
+`deno entry.ts`
