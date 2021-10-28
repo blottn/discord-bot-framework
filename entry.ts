@@ -1,4 +1,4 @@
-import { LoadConfig } from "./config.ts";
+import { LoadConfig } from "./Config.ts";
 
 const conf = LoadConfig("./config.json");
 
