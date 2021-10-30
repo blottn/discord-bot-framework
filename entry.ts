@@ -1,4 +1,5 @@
-import { LoadConfig } from "./Config.ts";
+import { LoadConfig } from "./core/config.ts";
+import * as Bot from "./core/bot.ts";
 
 const conf = LoadConfig("./config.json");
 
