@@ -11,3 +11,5 @@ export interface Persister<T> {
 export interface Commander {
     Commands(): Command[]
 }
+
+export type Bot<T> = Persister<T> | Commander;
